@@ -1,6 +1,6 @@
 resource "null_resource" "readcontentfile" {
   provisioner "local-exec" {
-   command = "date"
+   command = "date & time"
    #interpreter = ["PowerShell", "-Command"]
   }
 }
